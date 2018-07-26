@@ -64,7 +64,7 @@ def get_differentially_expressed(expression, names, type1, type2):
 
 ########################################## MAIN ######################################################################
 
-expression = read_csv("soyars_project_data.csv") #read in expression
+expression = read_csv("miRNA_project_data.csv") #read in expression
 
 ID = miRNA_ID('soyars_project_data_rownames.csv') #read in miRNA IDs
 
